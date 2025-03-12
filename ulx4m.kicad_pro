@@ -58,7 +58,35 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|103540000|85476250|6126faf1-17ec-4d07-b253-4887bf7fae60|f62d5b41-bf34-498e-9cda-7c697f703f47",
+        "clearance|104340000|84600000|749c55be-d0b6-49d2-afb8-65044022ab5d|f62d5b41-bf34-498e-9cda-7c697f703f47",
+        "clearance|104340000|84600000|c1f195ab-87b8-4cf3-8b87-f405d37e7cb8|f62d5b41-bf34-498e-9cda-7c697f703f47",
+        "clearance|104340000|84600000|fa1e2edc-3a29-41c2-be65-c50f9e079a5d|f62d5b41-bf34-498e-9cda-7c697f703f47",
+        "clearance|104340000|85476250|3c5887e5-a848-4499-92c1-ef2c56c80959|f62d5b41-bf34-498e-9cda-7c697f703f47",
+        "clearance|135850000|100738750|00084620-01b9-40a2-9206-44409bffa43e|24c1fc94-52d7-46e5-959b-314b4cd2aa43",
+        "clearance|136650000|100738750|531b13ef-1751-4449-98e5-66a003ceadb7|24c1fc94-52d7-46e5-959b-314b4cd2aa43",
+        "clearance|137460000|84753750|bca66de0-f172-4642-a628-224fdb352020|42e06529-e535-4596-976a-9094f5ee1b52",
+        "clearance|138260000|84753750|0749af17-f2a8-4404-8fae-ccda756fd2b9|42e06529-e535-4596-976a-9094f5ee1b52",
+        "clearance|143200000|90617500|8ddba689-6af8-4c1c-a320-fa40bc6b38c3|03b52037-77e9-4797-9b2d-3c501964c5da",
+        "clearance|143576250|89250000|cb7f088a-ad89-41ef-a25a-c81a9e684744|03b52037-77e9-4797-9b2d-3c501964c5da",
+        "clearance|143576250|90050000|c7d9e233-58e5-4311-a4cc-3cd6869f1dd7|03b52037-77e9-4797-9b2d-3c501964c5da",
+        "solder_mask_bridge|103540000|85476250|f62d5b41-bf34-498e-9cda-7c697f703f47|6126faf1-17ec-4d07-b253-4887bf7fae60",
+        "solder_mask_bridge|104340000|85100000|ebbf8355-fc64-402b-9d4b-b19e12c51243|01feb269-dd6a-4847-bfa2-ca4dcf993189",
+        "solder_mask_bridge|104340000|85476250|f62d5b41-bf34-498e-9cda-7c697f703f47|3c5887e5-a848-4499-92c1-ef2c56c80959",
+        "solder_mask_bridge|135250000|101115000|af5f29d6-aef5-4526-a2b8-77fa4719b9f1|00000000-0000-0000-0000-000060f9c722",
+        "solder_mask_bridge|135282499|101115000|af5f29d6-aef5-4526-a2b8-77fa4719b9f1|00000000-0000-0000-0000-000060f9c722",
+        "solder_mask_bridge|135850000|100738750|24c1fc94-52d7-46e5-959b-314b4cd2aa43|00084620-01b9-40a2-9206-44409bffa43e",
+        "solder_mask_bridge|135850000|101115000|af5f29d6-aef5-4526-a2b8-77fa4719b9f1|00000000-0000-0000-0000-000060f9c722",
+        "solder_mask_bridge|136650000|100738750|24c1fc94-52d7-46e5-959b-314b4cd2aa43|531b13ef-1751-4449-98e5-66a003ceadb7",
+        "solder_mask_bridge|137460000|84753750|42e06529-e535-4596-976a-9094f5ee1b52|bca66de0-f172-4642-a628-224fdb352020",
+        "solder_mask_bridge|137460000|85130000|ae0e4c91-bb6f-4d14-8af9-b36fe8f8fcd8|3704a2ac-a3bd-488d-8123-69b96c0f84dd",
+        "solder_mask_bridge|138260000|84753750|42e06529-e535-4596-976a-9094f5ee1b52|0749af17-f2a8-4404-8fae-ccda756fd2b9",
+        "solder_mask_bridge|143200000|89250000|f396ff85-178b-477e-ad8e-e6958404f8f9|8ddba689-6af8-4c1c-a320-fa40bc6b38c3",
+        "solder_mask_bridge|143576250|89250000|03b52037-77e9-4797-9b2d-3c501964c5da|cb7f088a-ad89-41ef-a25a-c81a9e684744",
+        "solder_mask_bridge|143576250|90050000|03b52037-77e9-4797-9b2d-3c501964c5da|c7d9e233-58e5-4311-a4cc-3cd6869f1dd7",
+        "starved_thermal|101300000|78892501|00000000-0000-0000-0000-00006353a959|fb8236ef-75ca-468a-943f-cf94d01a6393|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -128,7 +156,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.127,
@@ -467,7 +495,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
@@ -484,7 +512,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
