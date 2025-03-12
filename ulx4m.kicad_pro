@@ -1815,11 +1815,383 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet2",
+          "name": "Datasheet2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet3",
+          "name": "Datasheet3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DatasheetLC",
+          "name": "DatasheetLC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digike_y",
+          "name": "Digike_y",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digike_y1",
+          "name": "Digike_y1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digike_y2",
+          "name": "Digike_y2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digike_y3",
+          "name": "Digike_y3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dtasheet4",
+          "name": "Dtasheet4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMPTY_MPN",
+          "name": "EMPTY_MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Koncar",
+          "name": "Koncar",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCS_C2",
+          "name": "LCS_C2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LowCost",
+          "name": "LowCost",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG1",
+          "name": "MFG1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG2",
+          "name": "MFG2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG3",
+          "name": "MFG3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG4",
+          "name": "MFG4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNF1_URL",
+          "name": "MNF1_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNF2_URL",
+          "name": "MNF2_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNF3_URL",
+          "name": "MNF3_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MNF4_URL",
+          "name": "MNF4_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN2",
+          "name": "MPN2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN3",
+          "name": "MPN3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN4",
+          "name": "MPN4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP_N2",
+          "name": "MP_N2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP_N3",
+          "name": "MP_N3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP_N4",
+          "name": "MP_N4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP_N5",
+          "name": "MP_N5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r",
+          "name": "Mouse_r",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r1",
+          "name": "Mouse_r1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r2",
+          "name": "Mouse_r2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r3",
+          "name": "Mouse_r3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r4",
+          "name": "Mouse_r4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouse_r5",
+          "name": "Mouse_r5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser_URL",
+          "name": "Mouser_URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Newar_k2",
+          "name": "Newar_k2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Newark",
+          "name": "Newark",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Note",
+          "name": "Note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Side",
+          "name": "Side",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TME",
+          "name": "TME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vertical",
+          "name": "Vertical",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price100_Digikey",
+          "name": "price100_Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price100_LCSC",
+          "name": "price100_LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price100_Mouse",
+          "name": "price100_Mouse",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price1500_Mouser",
+          "name": "price1500_Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price200_LCSC",
+          "name": "price200_LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price300_LCSC",
+          "name": "price300_LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price300_TME",
+          "name": "price300_TME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price300_Vertical",
+          "name": "price300_Vertical",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "price400_LCSC",
+          "name": "price400_LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

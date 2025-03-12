@@ -60,12 +60,11 @@
       33,
       34,
       35,
-      36,
       39,
       40
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
