@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -34,14 +34,12 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
       11,
       12,
       13,
-      14,
       15,
       16,
       17,
@@ -62,10 +60,11 @@
       33,
       34,
       35,
+      36,
       39,
       40
     ],
-    "visible_layers": "ffffeff_ffffffff",
+    "visible_layers": "fffffff_ffffffe1",
     "zone_display_mode": 1
   },
   "git": {

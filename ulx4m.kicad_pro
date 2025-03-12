@@ -86,8 +86,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -101,7 +101,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -126,9 +126,9 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.4,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.127,
@@ -467,7 +467,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
@@ -484,7 +484,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.127,
@@ -525,19 +525,7 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "+1V1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+1V35"
-      },
-      {
-        "netclass": "Default",
         "pattern": "+2V5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+3.3VA"
       },
       {
         "netclass": "Default",
@@ -577,23 +565,23 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/ethernet/ACTLED"
+        "pattern": "/ethernet/AVDDL"
       },
       {
         "netclass": "Default",
-        "pattern": "/ethernet/LINKLED"
+        "pattern": "/ethernet/AVDDL_PLL"
       },
       {
         "netclass": "Default",
-        "pattern": "/ethernet/RBIAS"
+        "pattern": "/ethernet/ETH_LED1"
       },
       {
         "netclass": "Default",
-        "pattern": "/ethernet/VDDCR"
+        "pattern": "/ethernet/ETH_LED2"
       },
       {
         "netclass": "Default",
-        "pattern": "/ethernet/XTAL"
+        "pattern": "/ethernet/PHY_CLK"
       },
       {
         "netclass": "Default",
@@ -861,6 +849,210 @@
       },
       {
         "netclass": "Default",
+        "pattern": "DDR3_A0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_A9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_BA0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_BA1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_BA2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_CAS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_CKE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_CLK+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_CLK-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_CS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DM0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DM1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQ9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQS0+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQS0-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQS1+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_DQS1-"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_ODT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_RAS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_RESET"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_VREF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DDR3_WE"
+      },
+      {
+        "netclass": "Default",
         "pattern": "DSI0_C_N"
       },
       {
@@ -882,6 +1074,30 @@
       {
         "netclass": "Default",
         "pattern": "DSI0_D1_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSI1_C_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSI1_C_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSI1_D0_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSI1_D0_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSI1_D1_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DSI1_D1_P"
       },
       {
         "netclass": "Default",
@@ -930,6 +1146,10 @@
       {
         "netclass": "Default",
         "pattern": "ETH_3P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "ETH_INT_N"
       },
       {
         "netclass": "Default",
@@ -982,10 +1202,6 @@
       {
         "netclass": "Default",
         "pattern": "FPDI_D2-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GLOBAL_EN"
       },
       {
         "netclass": "Default",
@@ -1233,22 +1449,6 @@
       },
       {
         "netclass": "Default",
-        "pattern": "JTAG_TCK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "JTAG_TDI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "JTAG_TDO"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "JTAG_TMS"
-      },
-      {
-        "netclass": "Default",
         "pattern": "LED0"
       },
       {
@@ -1282,6 +1482,14 @@
       {
         "netclass": "Default",
         "pattern": "Net-(BTN1-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C109-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(C94-Pad2)"
       },
       {
         "netclass": "Default",
@@ -1341,23 +1549,15 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(R54-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R56-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R58-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R60-Pad1)"
+        "pattern": "Net-(R65-Pad2)"
       },
       {
         "netclass": "Default",
         "pattern": "Net-(R70-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(R81-Pad1)"
       },
       {
         "netclass": "Default",
@@ -1417,15 +1617,23 @@
       },
       {
         "netclass": "Default",
-        "pattern": "RGMII_REF_CLK"
-      },
-      {
-        "netclass": "Default",
         "pattern": "RGMII_RXD0"
       },
       {
         "netclass": "Default",
         "pattern": "RGMII_RXD1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RGMII_RXD2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RGMII_RXD3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RGMII_RX_CLK"
       },
       {
         "netclass": "Default",
@@ -1441,15 +1649,19 @@
       },
       {
         "netclass": "Default",
+        "pattern": "RGMII_TXD2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RGMII_TXD3"
+      },
+      {
+        "netclass": "Default",
         "pattern": "RGMII_TX_CLK"
       },
       {
         "netclass": "Default",
         "pattern": "RGMII_TX_EN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RUN_PG"
       },
       {
         "netclass": "Default",
@@ -1461,211 +1673,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "SDRAM_A0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A10"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A11"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A12"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_A9"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_BA0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_BA1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_CKE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_CLK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D10"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D11"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D12"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D13"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D14"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D15"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_D9"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_DQM0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_DQM1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_nCAS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_nCS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_nRAS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SDRAM_nWE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SD_CLK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SD_CMD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SD_D0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SD_D1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SD_D2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SD_D3"
-      },
-      {
-        "netclass": "Default",
         "pattern": "SD_PWR_ON"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SRCLK1N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SRCLK1P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SRX11N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "SRX11P"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "STX11N"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "STX11P"
       },
       {
         "netclass": "Default",
@@ -1705,7 +1713,11 @@
       },
       {
         "netclass": "Default",
-        "pattern": "nEXTRST"
+        "pattern": "VCC1V2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VCC1V35"
       }
     ]
   },
@@ -1858,7 +1870,7 @@
     ],
     [
       "00000000-0000-0000-0000-000061e7db84",
-      "DDR3"
+      "SDRAM"
     ],
     [
       "00000000-0000-0000-0000-000058da7327",
