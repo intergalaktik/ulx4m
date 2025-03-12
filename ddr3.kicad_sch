@@ -5,10 +5,12 @@
 	(uuid "1ad65cf1-734f-44de-986a-ccd7f2875040")
 	(paper "A3")
 	(title_block
-		(title "DDR3")
-		(rev "1.0.3")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "Reference - ecp5-dc-scm")
-		(comment 2 "Apache License 2.0")
+		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols
 		(symbol "ecp5-dc-scm:8x51R_0602_array"

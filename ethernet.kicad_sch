@@ -5,10 +5,12 @@
 	(uuid "31871064-3849-4127-86a9-83b2124de347")
 	(paper "A3")
 	(title_block
-		(title "Ethernet")
-		(rev "1.0.3")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "Reference - ecp5-dc-scm")
-		(comment 2 "License: Apache License 2.0")
+		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols
 		(symbol "ecp5-dc-scm:ASEMB-25.000MHZ-LC-T"

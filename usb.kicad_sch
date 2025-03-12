@@ -5,9 +5,10 @@
 	(uuid "b290d04a-847b-4a8b-a739-6a36fab3f82a")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(rev "1.0.10")
-		(company "EMARD")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "USB serial and JTAG")
 		(comment 2 "License: CERN-OHL-S v2")
 	)

@@ -5,9 +5,10 @@
 	(uuid "5f4cd14a-1deb-42cf-a3ee-427decdf44aa")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(rev "1.0.6")
-		(company "EMARD")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "SPI flash")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
@@ -12208,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 127 90.17 0)
 			(effects
 				(font

@@ -5,9 +5,9 @@
 	(uuid "b69a681a-f86a-4b12-bdfc-dae8d98af808")
 	(paper "A4")
 	(title_block
-		(title "ULX4M")
-		(date "2021-11-08")
-		(rev "0.0.2")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
 		(company "Intergalaktik d.o.o.")
 		(comment 1 "SDRAM memory")
 		(comment 2 "License: CERN-OHL-S v2")

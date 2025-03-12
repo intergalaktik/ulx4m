@@ -5,9 +5,10 @@
 	(uuid "83c1832d-47c9-4e5b-9ad2-41bb719b37c0")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(rev "1.0.3")
-		(company "EMARD")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "serdes")
 		(comment 2 "License: CERN-OHL-S v2")
 	)

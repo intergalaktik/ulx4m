@@ -5,11 +5,10 @@
 	(uuid "1df84e4f-233a-4f72-9418-c0020706bb76")
 	(paper "A4")
 	(title_block
-		(title "ULX4M-LS")
-		(date "2021-11-05")
-		(rev "0.0.2")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
 		(company "Intergalaktik d.o.o.")
-		(comment 1 "Root sheet")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols

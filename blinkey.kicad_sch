@@ -5,9 +5,10 @@
 	(uuid "a2bc309d-a97c-4349-9ef0-7c0c6f561da6")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(rev "1.0.3")
-		(company "EMARD")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "Buttons, LEDs, OLED display")
 		(comment 2 "License: CERN-OHL-S v2")
 	)

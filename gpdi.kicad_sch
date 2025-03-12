@@ -5,9 +5,10 @@
 	(uuid "eeff133d-e497-448d-af98-7a01f9046763")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(rev "1.0.5")
-		(company "EMARD")
+		(title "ULX4M-LD")
+		(date "2025-03-12")
+		(rev "0.0.3")
+		(company "Intergalaktik d.o.o.")
 		(comment 1 "General Purpose Differential Interface")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
