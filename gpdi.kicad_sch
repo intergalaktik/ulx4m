@@ -10640,6 +10640,123 @@
 				(hide yes)
 			)
 		)
+		(property "Digike_y2" "220-2071-ND"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "220-2177-ND"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Koncar" "FU004"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C446029"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LowCost" "842-LFE5U12F6BG381C"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG1" "Lattice"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Lattice"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF1_URL" "www.latticesemi.com"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF2_URL" "www.latticesemi.com"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP_N2" "LFE5U-12F-6BG381C"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "842-LFE5U85F6BG381C"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Side" "T"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price100_Mouse" "22.82$"
+			(at 0 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A10"
 			(uuid "c6541a47-6504-405f-8398-2bce8ed8b573")
 		)
@@ -11848,6 +11965,14 @@
 		(pin "2"
 			(uuid "85f19c4e-5b50-4a3b-88fa-8eb21a2e34d3")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -11906,6 +12031,14 @@
 		)
 		(pin "2"
 			(uuid "798e941f-3501-453f-8633-5980aa6bb241")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C36")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11966,6 +12099,14 @@
 		(pin "2"
 			(uuid "eac51008-70d7-4505-94ee-f1303262eed0")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12024,6 +12165,14 @@
 		)
 		(pin "2"
 			(uuid "18abda64-a419-4385-aeb0-9cf94daecac7")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12084,6 +12233,14 @@
 		(pin "2"
 			(uuid "dac7c5cb-c5cc-4998-8ef7-31558d39ebf4")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12142,6 +12299,14 @@
 		)
 		(pin "2"
 			(uuid "2d5b65b1-165f-414c-bac6-afe9e3a1aa9d")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12202,6 +12367,14 @@
 		(pin "2"
 			(uuid "9251ede8-54ec-4572-868b-df8b3a68b0d3")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12260,6 +12433,14 @@
 		)
 		(pin "2"
 			(uuid "51662010-3be8-4ce5-9748-847163a246eb")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12320,6 +12501,14 @@
 		(pin "2"
 			(uuid "7f143f11-0485-4271-8633-20a16ef6fef0")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12378,6 +12567,14 @@
 		)
 		(pin "2"
 			(uuid "069c19e8-b260-40aa-8765-0cdc3ccf5c3a")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12438,6 +12635,14 @@
 		(pin "2"
 			(uuid "b627bfe9-ae81-4259-a8de-36d0895f0abe")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12496,6 +12701,14 @@
 		)
 		(pin "2"
 			(uuid "f3e36987-ce30-4db4-945c-95668af3a7de")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12556,6 +12769,14 @@
 		(pin "2"
 			(uuid "316daf9e-d3b0-4b1f-858f-d3aebf256d56")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12614,6 +12835,14 @@
 		)
 		(pin "2"
 			(uuid "ebc3449d-9fe9-46db-8c9a-48a2c0d151e3")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C42")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12674,6 +12903,14 @@
 		(pin "2"
 			(uuid "920b72a8-6398-4fd7-8f53-6fa6cbe68cfc")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -12732,6 +12969,14 @@
 		)
 		(pin "2"
 			(uuid "56ddb17c-b5e4-4b82-8ff7-f3b752692558")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "C40")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15040,6 +15285,14 @@
 		)
 		(pin "4"
 			(uuid "fdbf5c9b-ab96-49f4-9d7b-ab12cea26001")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d686d9"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

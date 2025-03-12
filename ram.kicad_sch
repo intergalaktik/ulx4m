@@ -8172,7 +8172,7 @@
 	)
 	(global_label "SD_PWR_ON"
 		(shape input)
-		(at 277.495 116.84 270)
+		(at 113.03 168.91 270)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -8181,7 +8181,7 @@
 		)
 		(uuid "42ca4632-0dff-48d6-b5f1-ea0a38776857")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.495 116.84 0)
+			(at 113.03 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,6 +9129,14 @@
 		(pin "2"
 			(uuid "bfd05461-6994-487a-b025-4f69b919a35b")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6d507"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -9313,6 +9321,132 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digike_y2" "220-2071-ND"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "220-2177-ND"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Koncar" "FU004"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C446029"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LowCost" "842-LFE5U12F6BG381C"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG1" "Lattice"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Lattice"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF1_URL" "www.latticesemi.com"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF2_URL" "www.latticesemi.com"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP_N2" "LFE5U-12F-6BG381C"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "842-LFE5U85F6BG381C"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "www.mouser.com"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Side" "T"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price100_Mouse" "22.82$"
+			(at 0 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10524,6 +10658,132 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digike_y2" "220-2071-ND"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "220-2177-ND"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Koncar" "FU004"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C446029"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LowCost" "842-LFE5U12F6BG381C"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG1" "Lattice"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG2" "Lattice"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF1_URL" "www.latticesemi.com"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MNF2_URL" "www.latticesemi.com"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP_N2" "LFE5U-12F-6BG381C"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "842-LFE5U85F6BG381C"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "www.mouser.com"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Side" "T"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price100_Mouse" "22.82$"
+			(at 0 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11746,6 +12006,14 @@
 		(pin "2"
 			(uuid "27d60f01-bf18-4ee1-9b23-78133d04d273")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6d507"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -11940,6 +12208,14 @@
 		)
 		(pin "2"
 			(uuid "7c83b75f-507f-4b2b-a4fc-7c2412847461")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6d507"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12136,6 +12412,14 @@
 		(pin "2"
 			(uuid "d7dab6d8-f72b-4ea1-9397-fcf527fa058a")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6d507"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -12331,6 +12615,14 @@
 		(pin "2"
 			(uuid "9cbbe9f2-b31f-420d-b4da-d0bc600ad62d")
 		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6d507"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -12460,7 +12752,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 277.495 111.76 0)
+		(at 113.03 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12468,7 +12760,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006191dd07")
 		(property "Reference" "#PWR09"
-			(at 277.495 115.57 0)
+			(at 113.03 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12477,7 +12769,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 277.495 108.204 0)
+			(at 113.03 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +12777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 277.495 111.76 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12493,7 +12785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 277.495 111.76 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,7 +12793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 277.495 111.76 0)
+			(at 113.03 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,7 +12815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 277.495 114.3 180)
+		(at 113.03 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12531,7 +12823,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006193a2b3")
 		(property "Reference" "R?"
-			(at 275.59 114.3 90)
+			(at 111.125 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,7 +12831,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 277.495 114.3 90)
+			(at 113.03 166.37 90)
 			(effects
 				(font
 					(size 0.9906 0.9906)
@@ -12547,7 +12839,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 277.495 114.3 0)
+			(at 113.03 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +12848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 277.495 114.3 0)
+			(at 113.03 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 277.495 114.3 0)
+			(at 113.03 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

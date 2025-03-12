@@ -9007,7 +9007,6 @@
 	)
 	(label "S_5_N"
 		(at 168.91 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9018,7 +9017,6 @@
 	)
 	(label "2N"
 		(at 180.34 120.015 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9029,7 +9027,6 @@
 	)
 	(label "S_7_P"
 		(at 113.03 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9040,7 +9037,6 @@
 	)
 	(label "CLK_1_P"
 		(at 111.76 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9051,7 +9047,6 @@
 	)
 	(label "2P"
 		(at 179.705 122.555 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9062,7 +9057,6 @@
 	)
 	(label "S_5_P"
 		(at 194.945 126.365 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9073,7 +9067,6 @@
 	)
 	(label "S_1_P"
 		(at 113.03 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9084,7 +9077,6 @@
 	)
 	(label "S_3_P"
 		(at 113.03 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9095,7 +9087,6 @@
 	)
 	(label "CLK_0_P"
 		(at 113.03 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9106,7 +9097,6 @@
 	)
 	(label "S_0_P"
 		(at 113.03 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9117,7 +9107,6 @@
 	)
 	(label "S_6_P"
 		(at 113.03 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9128,7 +9117,6 @@
 	)
 	(label "S_2_P"
 		(at 113.03 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9139,7 +9127,6 @@
 	)
 	(label "S_4_P"
 		(at 113.03 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9150,7 +9137,6 @@
 	)
 	(label "S_7_P"
 		(at 194.945 117.475 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9161,7 +9147,6 @@
 	)
 	(label "S_1_N"
 		(at 168.91 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9172,7 +9157,6 @@
 	)
 	(label "S_3_N"
 		(at 168.91 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9183,7 +9167,6 @@
 	)
 	(label "CLK_0_N"
 		(at 168.91 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9194,7 +9177,6 @@
 	)
 	(label "S_2_N"
 		(at 168.91 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9205,7 +9187,6 @@
 	)
 	(label "S_7_N"
 		(at 194.945 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9216,7 +9197,6 @@
 	)
 	(label "CLK_1_N"
 		(at 168.91 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9227,7 +9207,6 @@
 	)
 	(label "S_7_N"
 		(at 168.91 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9238,7 +9217,6 @@
 	)
 	(label "S_4_N"
 		(at 168.91 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9249,7 +9227,6 @@
 	)
 	(label "S_6_N"
 		(at 168.91 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9260,7 +9237,6 @@
 	)
 	(label "1P"
 		(at 180.34 117.475 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9271,7 +9247,6 @@
 	)
 	(label "S_5_P"
 		(at 113.03 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9282,7 +9257,6 @@
 	)
 	(label "S_5_N"
 		(at 194.945 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9293,7 +9267,6 @@
 	)
 	(label "S_0_N"
 		(at 168.91 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9304,7 +9277,6 @@
 	)
 	(label "1N"
 		(at 180.34 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -10577,7 +10549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.latticesemi.com/~/media/LatticeSemi/Documents/ApplicationNotes/EH/TN1261.pdf?document_id=50463"
+		(property "Datasheet" "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf"
 			(at 118.11 48.26 0)
 			(effects
 				(font
@@ -10714,6 +10686,15 @@
 		)
 		(property "Side" "T"
 			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser_URL" "www.mouser.com"
+			(at 0 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12303,7 +12284,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 100.33 110.49 90)
+		(at 90.17 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12311,7 +12292,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000614908cd")
 		(property "Reference" "C?"
-			(at 102.87 109.22 90)
+			(at 92.71 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,15 +12300,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 104.14 111.76 90)
+			(at 93.98 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 100.33 110.49 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 110.49 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,7 +12326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 110.49 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +12426,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 115.57 90)
+		(at 200.66 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12453,7 +12434,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000614921a7")
 		(property "Reference" "C?"
-			(at 105.41 114.3 90)
+			(at 203.2 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,15 +12442,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 106.68 116.84 90)
+			(at 204.47 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 115.57 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12478,7 +12459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 115.57 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,7 +12468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 115.57 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,7 +13065,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 95.25 114.3 90)
+		(at 106.68 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13092,7 +13073,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006164c18b")
 		(property "Reference" "C?"
-			(at 92.71 113.03 90)
+			(at 104.14 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,15 +13081,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 92.71 115.57 90)
+			(at 104.14 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 114.3 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13117,7 +13098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 114.3 0)
+			(at 106.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,7 +13107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 114.3 0)
+			(at 106.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +13136,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 97.79 119.38 90)
+		(at 182.88 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13163,7 +13144,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000616792b8")
 		(property "Reference" "C?"
-			(at 100.33 118.11 90)
+			(at 185.42 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,15 +13152,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 101.6 120.65 90)
+			(at 186.69 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.79 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 119.38 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 119.38 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,6 +13623,14 @@
 		)
 		(pin "4"
 			(uuid "92d83cab-5579-47fa-8bad-f8ec8ae17daa")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058da7327"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
