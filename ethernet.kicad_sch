@@ -7110,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "0R"
 			(at 330.835 102.235 0)
 			(effects
 				(font
@@ -7167,7 +7167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "300"
+		(property "Val" "0R"
 			(at 330.835 98.425 0)
 			(effects
 				(font
@@ -7265,7 +7265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "300"
+		(property "Val" "0R"
 			(at 330.835 107.315 0)
 			(effects
 				(font
