@@ -8371,6 +8371,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d9a276-c21a-49d8-9ffe-6faa36d514ee")
+	)
+	(wire
+		(pts
 			(xy 125.73 121.285) (xy 128.27 121.285)
 		)
 		(stroke
@@ -8921,6 +8931,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 60.96) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaae8d6b-0fa5-4364-95c3-a7f1204f741d")
+	)
+	(wire
+		(pts
 			(xy 185.42 93.98) (xy 190.5 93.98)
 		)
 		(stroke
@@ -9048,6 +9068,16 @@
 			(type default)
 		)
 		(uuid "d3fa21d4-11b2-47e9-a1bf-c4fdbb77fa1e")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d687a180-c6e2-4e27-9544-8dd4fd371664")
 	)
 	(wire
 		(pts
@@ -9290,6 +9320,36 @@
 		)
 		(uuid "08d53022-08cd-4919-862d-a334a1d69373")
 	)
+	(label "SD_D1"
+		(at 113.03 60.96 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "480e431b-a26d-488b-bb21-a9dd76cea3a3")
+	)
+	(label "SD_D2"
+		(at 111.76 76.2 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c62d95be-4242-4357-aed5-d7e8a4332b86")
+	)
+	(label "SD_D0"
+		(at 63.5 73.66 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e838ab35-5a3e-468b-92a9-eaddf7af6331")
+	)
 	(global_label "SW2"
 		(shape input)
 		(at 72.39 83.82 180)
@@ -9490,9 +9550,9 @@
 			)
 		)
 	)
-	(global_label "SD_D0"
+	(global_label "SD_DAT0"
 		(shape input)
-		(at 72.39 73.66 180)
+		(at 60.96 73.66 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -9501,7 +9561,7 @@
 		)
 		(uuid "2e2c5679-c173-4875-9a3c-b3ec10d89ceb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 73.66 0)
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,6 +10070,26 @@
 			)
 		)
 	)
+	(global_label "SD_DAT2"
+		(shape input)
+		(at 120.65 76.2 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "82aa3f82-8c95-4d20-b792-470c1906970c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DSI0_D0_P"
 		(shape input)
 		(at 62.865 81.28 180)
@@ -10130,9 +10210,9 @@
 			)
 		)
 	)
-	(global_label "SD_D1"
+	(global_label "SD_DAT1"
 		(shape input)
-		(at 110.49 60.96 0)
+		(at 121.92 60.96 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -10141,7 +10221,7 @@
 		)
 		(uuid "9bb43fe9-579f-48ac-9544-6c54608c8f87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 60.96 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,26 +10242,6 @@
 		(uuid "a050f786-964a-43f3-b643-b985c7d19d01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.03 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_D2"
-		(shape input)
-		(at 110.49 76.2 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "a2b4cdc3-6d84-468d-a6ea-59081209f9ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
