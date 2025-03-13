@@ -2217,137 +2217,6 @@
 				)
 			)
 		)
-		(symbol "ecp5-dc-scm:R_1k_0402"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -1.397 3.429 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_1k_0402"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ecp5-dc-scm-footprints:0402-res"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "BOURNS"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0402-FX-1001GLF"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Val" "1k"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_1k_0402_1_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ecp5-dc-scm:R_2k2_0402"
 			(pin_names
 				(offset 0)
@@ -2852,6 +2721,12 @@
 		(uuid "07662eee-f940-4614-976f-710fd47793fa")
 	)
 	(junction
+		(at 321.31 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0954f5dd-934a-4ea1-b33f-b3c24a4e4495")
+	)
+	(junction
 		(at 94.615 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2894,6 +2769,12 @@
 		(uuid "21a04c3d-60a1-44bf-92dd-e57ecd8fe04d")
 	)
 	(junction
+		(at 318.77 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "261c6099-8519-45fe-ab86-70460a4a07c8")
+	)
+	(junction
 		(at 73.66 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2904,6 +2785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29992134-a6fb-4928-88d0-84666381ce60")
+	)
+	(junction
+		(at 320.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b601c2a-154f-4215-8664-9c5759d84941")
 	)
 	(junction
 		(at 116.205 68.58)
@@ -3068,6 +2955,12 @@
 		(uuid "9c30687c-ff75-4b3d-a0d0-281c9d06d3cd")
 	)
 	(junction
+		(at 251.46 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe193e2-608f-4bbd-831f-fb827317fe2a")
+	)
+	(junction
 		(at 129.54 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3096,6 +2989,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b102ae03-937b-438c-89f2-b531198a8d26")
+	)
+	(junction
+		(at 326.39 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b48866be-915e-44b9-a986-421d36d4e241")
+	)
+	(junction
+		(at 313.69 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b683ee97-919e-468c-8432-efef0e991663")
 	)
 	(junction
 		(at 90.805 33.655)
@@ -3164,6 +3069,12 @@
 		(uuid "dabae494-61fd-407c-9ffa-f8af31ef67d0")
 	)
 	(junction
+		(at 323.85 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dac8f654-e72e-443d-a7de-a2d2dc88d7b3")
+	)
+	(junction
 		(at 59.69 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3180,6 +3091,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3ad4b67-dea1-4423-90e6-48390808279f")
+	)
+	(junction
+		(at 316.23 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e44326ad-335a-4d46-8a1d-e58d21afec8e")
 	)
 	(junction
 		(at 206.375 48.895)
@@ -3250,6 +3167,16 @@
 			(type default)
 		)
 		(uuid "0126d2af-c6e7-4885-91de-bb0ced4dbec0")
+	)
+	(wire
+		(pts
+			(xy 323.85 157.48) (xy 323.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020a1a6e-b9bb-4ab7-afd4-4cfccc95af15")
 	)
 	(wire
 		(pts
@@ -3453,6 +3380,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 142.24) (xy 323.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11301518-5252-4786-8566-7df69af11bda")
+	)
+	(wire
+		(pts
 			(xy 129.54 222.25) (xy 129.54 213.36)
 		)
 		(stroke
@@ -3503,6 +3440,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 149.86) (xy 311.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15022a3a-abde-4914-ab74-906d3c26cb63")
+	)
+	(wire
+		(pts
 			(xy 128.905 43.815) (xy 128.905 46.355)
 		)
 		(stroke
@@ -3530,6 +3477,16 @@
 			(type default)
 		)
 		(uuid "181554fc-5670-456b-b289-694d0409a13a")
+	)
+	(wire
+		(pts
+			(xy 316.23 142.24) (xy 316.23 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2bf4d2-0806-4496-ba3a-796e9cdc003c")
 	)
 	(wire
 		(pts
@@ -3580,6 +3537,26 @@
 			(type default)
 		)
 		(uuid "1c6c70bb-4e71-4f99-9bc4-9fa1d38372d4")
+	)
+	(wire
+		(pts
+			(xy 320.04 142.24) (xy 321.31 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e215037-3334-43da-b2c6-26f0552d025f")
+	)
+	(wire
+		(pts
+			(xy 328.93 157.48) (xy 328.93 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd46100-23c6-4fa2-8dad-c6913ff2a22c")
 	)
 	(wire
 		(pts
@@ -3893,6 +3870,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 142.24) (xy 328.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373b0d70-2711-4bf1-a5ca-2293b778b231")
+	)
+	(wire
+		(pts
 			(xy 198.12 158.75) (xy 215.265 158.75)
 		)
 		(stroke
@@ -3940,16 +3927,6 @@
 			(type default)
 		)
 		(uuid "3aeb4e62-c4f0-4513-99db-090b6ea3d7c5")
-	)
-	(wire
-		(pts
-			(xy 317.5 98.425) (xy 327.025 98.425)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b01b8b2-0cac-47ea-8fde-ee62bea33fc0")
 	)
 	(wire
 		(pts
@@ -4020,6 +3997,26 @@
 			(type default)
 		)
 		(uuid "3e66e0f1-5bea-48fa-8fa9-b6c3d871b5a6")
+	)
+	(wire
+		(pts
+			(xy 323.85 142.24) (xy 326.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e706a96-7ad6-456b-83f0-706f7df671f0")
+	)
+	(wire
+		(pts
+			(xy 326.39 142.24) (xy 328.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420ae53c-f713-459b-8a1f-1df35ee93e06")
 	)
 	(wire
 		(pts
@@ -4113,6 +4110,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 243.84) (xy 243.84 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca89a5f-7403-45af-9aad-3339b9c654ce")
+	)
+	(wire
+		(pts
 			(xy 170.18 84.455) (xy 167.64 84.455)
 		)
 		(stroke
@@ -4120,6 +4127,16 @@
 			(type default)
 		)
 		(uuid "4d8a778b-e861-448a-910e-488fd7c8d7c1")
+	)
+	(wire
+		(pts
+			(xy 311.15 157.48) (xy 311.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc1a00a-0b20-40cb-9aaa-549cd2710987")
 	)
 	(wire
 		(pts
@@ -4293,6 +4310,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 139.7) (xy 320.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e344c95-4f8d-4f22-a7a2-ba71e08046e3")
+	)
+	(wire
+		(pts
 			(xy 212.725 85.725) (xy 212.725 86.995)
 		)
 		(stroke
@@ -4300,6 +4327,16 @@
 			(type default)
 		)
 		(uuid "5f455230-868c-469d-888e-6ea5a01c2080")
+	)
+	(wire
+		(pts
+			(xy 313.69 142.24) (xy 313.69 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9200e1-29f7-4332-9da4-3864da15ca84")
 	)
 	(wire
 		(pts
@@ -4430,6 +4467,26 @@
 			(type default)
 		)
 		(uuid "6d6246f1-be45-4b3d-91db-32185bf19590")
+	)
+	(wire
+		(pts
+			(xy 323.85 142.24) (xy 323.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ede5520-c145-4a57-862e-30080488f75b")
+	)
+	(wire
+		(pts
+			(xy 199.39 265.43) (xy 243.84 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd1aa79-f909-4b1e-a37d-a570c570ffc2")
 	)
 	(wire
 		(pts
@@ -4643,6 +4700,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 157.48) (xy 316.23 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842a0261-9aff-4d03-b092-4aa121c94fbd")
+	)
+	(wire
+		(pts
 			(xy 97.155 43.815) (xy 97.155 46.355)
 		)
 		(stroke
@@ -4680,6 +4747,16 @@
 			(type default)
 		)
 		(uuid "8bb64c44-f7d8-484e-8d88-91be25f77e90")
+	)
+	(wire
+		(pts
+			(xy 251.46 240.03) (xy 251.46 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e01ed7c-2d02-4b6e-8f0c-feb72458364e")
 	)
 	(wire
 		(pts
@@ -4773,13 +4850,13 @@
 	)
 	(wire
 		(pts
-			(xy 334.645 98.425) (xy 339.09 98.425)
+			(xy 321.31 157.48) (xy 321.31 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99d94e90-b702-4e06-8570-0abbaa737cfe")
+		(uuid "98d251bd-5bac-4ea2-bda6-8c2b8e18ddda")
 	)
 	(wire
 		(pts
@@ -4790,6 +4867,16 @@
 			(type default)
 		)
 		(uuid "9af1aea3-d48a-4043-a147-483381b53a07")
+	)
+	(wire
+		(pts
+			(xy 199.39 269.24) (xy 251.46 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b909f5e-2b02-467e-bf5b-03fa6a304587")
 	)
 	(wire
 		(pts
@@ -4823,13 +4910,13 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 107.315) (xy 317.5 107.315)
+			(xy 318.77 157.48) (xy 318.77 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9dada67c-ae53-4be8-bccb-1455c8c012f1")
+		(uuid "9f6b36c2-e437-4998-b70f-f22f4dd268ce")
 	)
 	(wire
 		(pts
@@ -4850,6 +4937,26 @@
 			(type default)
 		)
 		(uuid "9ff52cfe-fe54-4a43-bc70-4c2d4874cd12")
+	)
+	(wire
+		(pts
+			(xy 321.31 142.24) (xy 321.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09cd3fa-0a67-4bbe-95e2-61a843bd8d77")
+	)
+	(wire
+		(pts
+			(xy 318.77 142.24) (xy 318.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ba1f76-4050-48cd-a851-b93bd1fe8880")
 	)
 	(wire
 		(pts
@@ -4930,6 +5037,16 @@
 			(type default)
 		)
 		(uuid "a686158d-7886-400d-85b7-2bba46618433")
+	)
+	(wire
+		(pts
+			(xy 313.69 157.48) (xy 313.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78f9c4e-945b-4de2-adb6-55fde9c04cfd")
 	)
 	(wire
 		(pts
@@ -5033,6 +5150,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 265.43) (xy 243.84 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a49588-f1e0-48f6-95e1-ac04acad7a4d")
+	)
+	(wire
+		(pts
+			(xy 317.5 100.33) (xy 339.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dc4fdd-525a-4d1e-b17d-982aba0129ee")
+	)
+	(wire
+		(pts
 			(xy 115.57 222.25) (xy 108.585 222.25)
 		)
 		(stroke
@@ -5040,6 +5177,16 @@
 			(type default)
 		)
 		(uuid "b65e8ea1-06f0-4ede-9d7a-1dc0c8a46562")
+	)
+	(wire
+		(pts
+			(xy 317.5 95.25) (xy 339.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e62127-efa5-42a5-809c-0009dd6f4e25")
 	)
 	(wire
 		(pts
@@ -5103,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 142.24) (xy 313.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec4a971-e140-48f5-bd62-af1fe9661162")
+	)
+	(wire
+		(pts
 			(xy 103.505 90.17) (xy 86.36 90.17)
 		)
 		(stroke
@@ -5130,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "c1626508-ded3-423c-9018-43d7999ecb3e")
+	)
+	(wire
+		(pts
+			(xy 251.46 243.84) (xy 251.46 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d94077-a785-44e0-bec8-7aea6de8f465")
 	)
 	(wire
 		(pts
@@ -5193,6 +5360,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 157.48) (xy 326.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb45cd37-eb47-459f-b929-cbde2ede3965")
+	)
+	(wire
+		(pts
 			(xy 226.695 86.995) (xy 226.695 92.075)
 		)
 		(stroke
@@ -5200,6 +5377,16 @@
 			(type default)
 		)
 		(uuid "cb57b668-d90f-4540-b038-bdd2902c76f1")
+	)
+	(wire
+		(pts
+			(xy 243.84 243.84) (xy 251.46 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc43f6e0-9210-4cda-b47d-b3889e488bfa")
 	)
 	(wire
 		(pts
@@ -5413,16 +5600,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 107.315) (xy 334.645 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e593cbf9-bca4-47f2-8995-af14f5b8f98d")
-	)
-	(wire
-		(pts
 			(xy 149.86 84.455) (xy 147.32 84.455)
 		)
 		(stroke
@@ -5551,6 +5728,26 @@
 		)
 		(uuid "f27af92c-5ab9-4024-8ce2-b57620c8df02")
 	)
+	(wire
+		(pts
+			(xy 313.69 142.24) (xy 316.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28e324d-affe-4051-92ec-db0d1323bc85")
+	)
+	(wire
+		(pts
+			(xy 316.23 142.24) (xy 318.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2da17ec-8c93-4ac0-adb2-86a4ef2cdb13")
+	)
 	(polyline
 		(pts
 			(xy 24.13 194.31) (xy 151.13 194.31)
@@ -5590,6 +5787,26 @@
 			(type default)
 		)
 		(uuid "f537993c-4839-4001-af57-d30877f86646")
+	)
+	(wire
+		(pts
+			(xy 251.46 269.24) (xy 251.46 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56ce858-c22c-4d46-949d-c8cce1b98d9a")
+	)
+	(wire
+		(pts
+			(xy 326.39 142.24) (xy 326.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f581384b-d425-4169-9f46-43563c629d1c")
 	)
 	(wire
 		(pts
@@ -5691,6 +5908,28 @@
 		)
 		(uuid "fd9abc72-df9e-488f-8b6e-dc5301d9717f")
 	)
+	(wire
+		(pts
+			(xy 318.77 142.24) (xy 320.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb0b07a-d306-4618-b5fc-52b6cf2b59b9")
+	)
+	(rectangle
+		(start 192.786 221.742)
+		(end 259.842 276.606)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c88ce385-6c0e-46b7-94bd-29eb551b414a)
+	)
 	(text "Pull up resistors - we will try internal"
 		(exclude_from_sim no)
 		(at 86.36 201.295 0)
@@ -5702,6 +5941,16 @@
 		)
 		(uuid "521157d4-d412-49a0-841c-b1252f6edfd5")
 	)
+	(text "PHY ADDRESS"
+		(exclude_from_sim no)
+		(at 201.422 224.282 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "623e480c-dcd5-4627-8939-78db2fe6517f")
+	)
 	(text "RJ45 connector"
 		(exclude_from_sim no)
 		(at 328.295 43.815 0)
@@ -5712,6 +5961,36 @@
 			(justify left bottom)
 		)
 		(uuid "81678b5f-8f4b-4855-8c7b-f80908f99cc8")
+	)
+	(text "Use FPGA PULL-UP/DOWN"
+		(exclude_from_sim no)
+		(at 212.852 248.666 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "e5c0ac73-7b4f-4a51-81f0-97e9b4d82934")
+	)
+	(label "ETH4_P"
+		(at 326.39 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0968ef42-346c-485b-896e-0fb73bc3be3d")
+	)
+	(label "ETH2_N"
+		(at 318.77 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09700a7f-c3a3-4468-ae4d-db3dc0621105")
 	)
 	(label "ETH_LED2"
 		(at 111.76 148.59 0)
@@ -5734,7 +6013,7 @@
 		(uuid "0f09b39c-3fde-4810-847d-5c2242537231")
 	)
 	(label "ETH_LED2"
-		(at 317.5 107.315 0)
+		(at 317.5 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5752,6 +6031,16 @@
 			(justify right bottom)
 		)
 		(uuid "211ce667-d192-460a-ab3e-3fc8dfe5731d")
+	)
+	(label "ETH4_N"
+		(at 328.93 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2eacca8e-23db-412b-8972-50ed6c0e388c")
 	)
 	(label "ETH4_N"
 		(at 215.265 125.73 180)
@@ -5793,6 +6082,16 @@
 		)
 		(uuid "66ecf4b2-9bd7-4f48-8c28-7e609a786fc7")
 	)
+	(label "ETH2_P"
+		(at 316.23 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "713b0ed3-f073-4cac-8f3b-1f9053758ab0")
+	)
 	(label "ETH2_N"
 		(at 215.265 140.97 180)
 		(effects
@@ -5812,6 +6111,16 @@
 			(justify left bottom)
 		)
 		(uuid "71708fce-020d-43e9-9e69-f6a3f5015d30")
+	)
+	(label "ETH_LED2"
+		(at 199.39 269.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "764a7599-029e-41f5-9240-5caa440030cf")
 	)
 	(label "PHY_CLK"
 		(at 215.265 158.75 180)
@@ -5853,6 +6162,16 @@
 		)
 		(uuid "972602c2-e428-4272-88ad-27178c654ba9")
 	)
+	(label "ETH3_N"
+		(at 323.85 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a08d0d04-9e5c-4afc-9f77-43283e131783")
+	)
 	(label "ETH1_P"
 		(at 317.5 55.245 0)
 		(effects
@@ -5864,7 +6183,7 @@
 		(uuid "a12f8c46-44c7-4275-8cb6-0716329f11b8")
 	)
 	(label "ETH_LED1"
-		(at 317.5 98.425 0)
+		(at 317.5 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5882,6 +6201,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae0942a3-e730-43fd-96cb-f5b204a4e8d9")
+	)
+	(label "ETH1_N"
+		(at 313.69 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1c0071c-dac4-4091-aed9-f06d821603c9")
 	)
 	(label "AVDDL_PLL"
 		(at 187.96 77.47 0)
@@ -5933,6 +6262,16 @@
 		)
 		(uuid "bf6a8dd5-1344-45c5-b7d5-80498cd269e1")
 	)
+	(label "ETH1_P"
+		(at 311.15 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c02e8332-1979-4746-84a6-3cea758d74dd")
+	)
 	(label "ETH3_P"
 		(at 317.5 75.565 0)
 		(effects
@@ -5962,6 +6301,26 @@
 			(justify right bottom)
 		)
 		(uuid "ec37c6d9-8b3b-40d3-82f2-e2e3e90b1964")
+	)
+	(label "ETH3_P"
+		(at 321.31 161.29 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f071b852-993a-47e3-acf8-bc362c47a25f")
+	)
+	(label "ETH_LED1"
+		(at 199.39 265.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f107171e-46c2-4b7c-ab78-968d128ab8af")
 	)
 	(label "ETH3_P"
 		(at 215.265 135.89 180)
@@ -6053,6 +6412,26 @@
 			)
 		)
 	)
+	(global_label "RGMII_RX_CLK"
+		(shape passive)
+		(at 222.25 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "123691c5-be50-41ce-a6ef-09ada789b357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.25 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RGMII_RXD1"
 		(shape passive)
 		(at 45.72 246.38 180)
@@ -6125,6 +6504,26 @@
 		(uuid "2ffa717e-3a15-4e35-9a51-fd518833fb7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.825 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC3V3"
+		(shape input)
+		(at 251.46 240.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30116857-7ef0-47ae-824e-aa12484cf5dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,26 +6724,6 @@
 		(uuid "5dcf2a35-1bae-4316-a334-b64b62632b84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.72 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC3V3"
-		(shape input)
-		(at 325.755 93.345 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61e6d728-3dfe-4b47-b6e9-c02646a8d11d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.755 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,16 +7094,16 @@
 	)
 	(global_label "VCC3V3"
 		(shape input)
-		(at 325.755 102.235 180)
+		(at 320.04 139.7 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ccba71bf-7714-4355-ba49-35642866a4e4")
+		(uuid "cd099182-50c7-4d0a-b25c-587a7beedce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.755 102.235 0)
+			(at 320.04 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +7154,7 @@
 	)
 	(global_label "ETH_nLED1"
 		(shape input)
-		(at 339.09 107.315 0)
+		(at 339.09 100.33 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6784,7 +7163,7 @@
 		)
 		(uuid "d513833f-3151-4308-8f15-13131015e8ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.09 107.315 0)
+			(at 339.09 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7174,7 @@
 	)
 	(global_label "ETH_nLED2"
 		(shape input)
-		(at 339.09 98.425 0)
+		(at 339.09 95.25 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6804,7 +7183,7 @@
 		)
 		(uuid "d97cc5e3-0597-4bd4-a11d-e70dc5ea339c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.09 98.425 0)
+			(at 339.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,202 +7466,6 @@
 			(project "ulx4m"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ecp5-dc-scm:R_1k_0402")
-		(at 330.835 98.425 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006065d128")
-		(property "Reference" "R66"
-			(at 335.28 97.155 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 330.835 102.235 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 325.755 93.345 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.835 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.835 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOURNS"
-			(at 325.755 88.265 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 325.755 90.805 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 330.835 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6989b40d-48ac-49d3-8c6a-1ad9b8cc5e3d")
-		)
-		(pin "2"
-			(uuid "0a82e24a-6235-4c24-ba3b-dbf95b646d20")
-		)
-		(instances
-			(project "ulx4m"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
-					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ecp5-dc-scm:R_1k_0402")
-		(at 330.835 107.315 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006065e29d")
-		(property "Reference" "R67"
-			(at 335.28 106.045 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "300"
-			(at 330.835 111.125 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 325.755 102.235 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.835 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.835 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "BOURNS"
-			(at 325.755 97.155 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 325.755 99.695 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 330.835 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02d1b845-e178-441b-9de4-6435729aebfe")
-		)
-		(pin "2"
-			(uuid "3faef21d-230b-44d0-b90f-9d8f576a8699")
-		)
-		(instances
-			(project "ulx4m"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
-					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -12505,6 +12688,996 @@
 				)
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 326.39 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00c907df-3ab4-4282-ba24-14d59f7891dc")
+		(property "Reference" "R86"
+			(at 327.914 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 330.2 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 321.31 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 316.23 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 318.77 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 326.39 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "6f1f05fe-1031-464c-ae5f-c6dd5a7ddfc0")
+		)
+		(pin "2"
+			(uuid "250c63c8-8bc0-494c-91cb-28f7022b3cad")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 321.31 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d933044-78d3-4a3e-b8ed-e620d8aa25fd")
+		(property "Reference" "R84"
+			(at 322.834 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 316.23 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 311.15 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 313.69 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 321.31 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "277f836b-c565-4583-973d-d9fe654dcbf1")
+		)
+		(pin "2"
+			(uuid "9f8fbad8-af9e-4cc3-aec3-593a1f20253f")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 316.23 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2476642b-7940-41f3-ac1d-62dd3f09f5c7")
+		(property "Reference" "R76"
+			(at 317.754 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 320.04 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 311.15 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 306.07 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 308.61 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 316.23 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "7c818002-8eee-40dc-a726-c3e7c8de4ae4")
+		)
+		(pin "2"
+			(uuid "82945468-19bc-47ea-9c4b-41f4f6da6d3b")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 328.93 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a3a9ad5-c216-4d4f-a34f-14d40ae389df")
+		(property "Reference" "R87"
+			(at 330.454 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 332.74 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 323.85 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 318.77 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 321.31 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 328.93 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "bd683b78-7957-40b1-b5e4-9962473d344e")
+		)
+		(pin "2"
+			(uuid "8db3f186-26c8-4dc3-aa01-dd777903f3aa")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 318.77 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47768240-7628-4996-a9a1-78f7d9616e4d")
+		(property "Reference" "R77"
+			(at 320.294 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 322.58 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 313.69 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 308.61 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 311.15 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 318.77 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "dde61ac0-a80e-46fd-b9f1-39eece8ce1c2")
+		)
+		(pin "2"
+			(uuid "98071dc5-eae0-4067-9bdf-5015284f778d")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 251.46 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd26d1c-0bc3-47a6-ba9f-c4d292867b87")
+		(property "Reference" "R72"
+			(at 252.73 248.285 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 255.27 251.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.38 246.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 241.3 246.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 243.84 246.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k2"
+			(at 252.73 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "f9a67b68-f5fe-41ba-9e6f-58f7203cee6d")
+		)
+		(pin "2"
+			(uuid "2456bfd9-fa30-4a2e-8554-112d7d48aac3")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 311.15 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66d544a6-1332-4777-b8da-3cbe125ad6ae")
+		(property "Reference" "R74"
+			(at 312.674 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 314.96 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 306.07 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 300.99 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 303.53 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 311.15 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "a4c47565-da60-47a0-83a2-e01a5c710fd3")
+		)
+		(pin "2"
+			(uuid "8190734a-c4a2-4b20-9d02-42ffb73e5ebc")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 323.85 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0ceb073-45a2-4571-bb4f-c38416f4920b")
+		(property "Reference" "R85"
+			(at 325.374 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 327.66 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 318.77 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 313.69 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 316.23 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 323.85 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "005e07fd-654a-467b-a0e8-4c5ca436de3e")
+		)
+		(pin "2"
+			(uuid "801fe0f0-622e-415f-9706-70b6e351618b")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 243.84 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8dbd6a1-6754-4f2a-a774-cdd82d833b61")
+		(property "Reference" "R73"
+			(at 245.11 248.285 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 247.65 251.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 238.76 246.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 233.68 246.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 236.22 246.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k2"
+			(at 245.11 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "72e31422-5bc0-41f3-a78c-5674fbf21850")
+		)
+		(pin "2"
+			(uuid "05cd3cbc-3553-45ba-9d28-a2124e68bc7f")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_10k2_0402")
+		(at 313.69 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff401b77-25ef-4f6d-a7f3-51f49c97a8f5")
+		(property "Reference" "R75"
+			(at 315.214 146.304 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k2"
+			(at 317.5 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 308.61 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MULTICOMP PRO"
+			(at 303.53 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCWR04X1022FTL"
+			(at 306.07 148.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "70R"
+			(at 313.69 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "e6e4667f-2ba5-465f-b697-ed3f7f1194f0")
+		)
+		(pin "2"
+			(uuid "631b3ac3-ca7f-4551-b1b4-86c97f2b86e8")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R75")
 					(unit 1)
 				)
 			)
