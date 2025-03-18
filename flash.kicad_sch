@@ -8190,6 +8190,10 @@
 		(color 0 0 0 0)
 		(uuid "e1f497fa-f187-4153-829a-3ffa52ee651b")
 	)
+	(no_connect
+		(at 203.2 109.22)
+		(uuid "428d58f8-9aff-484a-876e-f6c340edd39c")
+	)
 	(wire
 		(pts
 			(xy 139.7 104.14) (xy 165.1 104.14)
@@ -12255,10 +12259,10 @@
 		(lib_id "ulx4m-rescue:D_ALT-Device")
 		(at 127 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b5dd430")
 		(property "Reference" "D28"
 			(at 127 83.82 0)

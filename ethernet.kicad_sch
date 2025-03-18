@@ -3218,16 +3218,6 @@
 		)
 		(uuid "05475834-5818-41b2-b50f-1c4d4e7ea839")
 	)
-	(polyline
-		(pts
-			(xy 151.13 281.94) (xy 24.13 281.94)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "05a01d21-a3b4-4067-b473-ae6ce86a3a23")
-	)
 	(wire
 		(pts
 			(xy 132.08 153.67) (xy 111.125 153.67)
@@ -4678,16 +4668,6 @@
 		)
 		(uuid "80226e21-9d71-44c9-8ea0-0e9aab2b9451")
 	)
-	(polyline
-		(pts
-			(xy 24.13 281.94) (xy 24.13 194.31)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "812491e1-30db-4b04-846b-a9939bcf6104")
-	)
 	(wire
 		(pts
 			(xy 122.555 77.47) (xy 122.555 80.01)
@@ -5408,16 +5388,6 @@
 		)
 		(uuid "cc886bf7-c9ec-440e-8bfc-7321ad46ef51")
 	)
-	(polyline
-		(pts
-			(xy 151.13 194.31) (xy 151.13 281.94)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "cd94329b-e0fa-4202-8d0d-759e36387287")
-	)
 	(wire
 		(pts
 			(xy 129.54 233.045) (xy 129.54 277.495)
@@ -5748,16 +5718,6 @@
 		)
 		(uuid "f2da17ec-8c93-4ac0-adb2-86a4ef2cdb13")
 	)
-	(polyline
-		(pts
-			(xy 24.13 194.31) (xy 151.13 194.31)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "f3a5724f-7306-40d7-9e71-1653886f3415")
-	)
 	(wire
 		(pts
 			(xy 317.5 70.485) (xy 339.09 70.485)
@@ -5919,6 +5879,20 @@
 		(uuid "ffb0b07a-d306-4618-b5fc-52b6cf2b59b9")
 	)
 	(rectangle
+		(start 27.178 191.516)
+		(end 150.368 282.702)
+		(stroke
+			(width 0)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 255 1)
+		)
+		(uuid 17dae690-916a-4445-97cd-415aa6fd15fa)
+	)
+	(rectangle
 		(start 192.786 221.742)
 		(end 259.842 276.606)
 		(stroke
@@ -5930,9 +5904,9 @@
 		)
 		(uuid c88ce385-6c0e-46b7-94bd-29eb551b414a)
 	)
-	(text "Pull up resistors - we will try internal"
+	(text "Pull up resistors - not conected use FPGA internal PULLs"
 		(exclude_from_sim no)
-		(at 86.36 201.295 0)
+		(at 58.674 196.596 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -5961,6 +5935,16 @@
 			(justify left bottom)
 		)
 		(uuid "81678b5f-8f4b-4855-8c7b-f80908f99cc8")
+	)
+	(text "Not connected"
+		(exclude_from_sim no)
+		(at 120.396 157.734 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "cb2b1701-3c44-43ad-8bf6-56996ee96ad5")
 	)
 	(text "Use FPGA PULL-UP/DOWN"
 		(exclude_from_sim no)
@@ -7376,10 +7360,10 @@
 		(lib_id "ecp5-dc-scm:R_2k2_0402")
 		(at 108.585 229.235 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006038072f")
 		(property "Reference" "R61"
 			(at 110.49 226.06 90)
@@ -8669,10 +8653,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 52.705 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060915e67")
 		(property "Reference" "R53"
 			(at 53.975 226.06 90)
@@ -8768,10 +8752,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 59.69 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060925ed7")
 		(property "Reference" "R54"
 			(at 60.96 226.06 90)
@@ -8867,10 +8851,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 66.675 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006092608c")
 		(property "Reference" "R55"
 			(at 67.945 226.06 90)
@@ -8966,10 +8950,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 73.66 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000609262ad")
 		(property "Reference" "R56"
 			(at 74.93 226.06 90)
@@ -9065,10 +9049,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 80.645 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060932897")
 		(property "Reference" "R57"
 			(at 81.915 226.06 90)
@@ -9164,10 +9148,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 87.63 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000609328a0")
 		(property "Reference" "R59"
 			(at 88.9 226.06 90)
@@ -9263,10 +9247,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 94.615 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000609328a9")
 		(property "Reference" "R60"
 			(at 95.885 226.06 90)
@@ -9362,10 +9346,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 115.57 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060afc097")
 		(property "Reference" "R62"
 			(at 116.84 226.06 90)
@@ -9461,10 +9445,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 129.54 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060afc0c5")
 		(property "Reference" "R64"
 			(at 130.81 226.06 90)
@@ -9560,10 +9544,10 @@
 		(lib_id "ecp5-dc-scm:R_10k2_0402")
 		(at 122.555 229.235 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000060afc0ce")
 		(property "Reference" "R63"
 			(at 123.825 226.06 90)

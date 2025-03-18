@@ -7807,8 +7807,24 @@
 		(uuid "1df73fe6-8fd8-4efc-8094-0bd977ca4bf6")
 	)
 	(no_connect
+		(at 205.74 48.26)
+		(uuid "299c3576-05be-4972-af3c-0a6cb193ad36")
+	)
+	(no_connect
+		(at 205.74 104.14)
+		(uuid "34f8e584-9c13-4af9-8b6b-d3051e7e8a24")
+	)
+	(no_connect
+		(at 167.64 127)
+		(uuid "568c9382-8ac7-4019-8d1c-e19ecf9ecfd7")
+	)
+	(no_connect
 		(at 167.64 83.82)
 		(uuid "c6c03592-8391-4c65-8e2b-5593bab3cb17")
+	)
+	(no_connect
+		(at 167.64 99.06)
+		(uuid "cdb8e45f-63be-4550-b465-86078ea1b663")
 	)
 	(global_label "DDR3_DQ14"
 		(shape bidirectional)

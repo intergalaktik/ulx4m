@@ -17754,10 +17754,10 @@
 		(lib_id "Device:R")
 		(at 72.39 94.615 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000058e810cc")
 		(property "Reference" "R3"
 			(at 72.39 97.155 90)
@@ -17896,10 +17896,10 @@
 		(lib_id "Device:D")
 		(at 72.39 88.265 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000058e82b1d")
 		(property "Reference" "D17"
 			(at 72.39 90.805 0)
@@ -20266,69 +20266,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 78.74 123.825 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a5f7519")
-		(property "Reference" "#PWR053"
-			(at 78.74 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 78.74 120.269 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54fa2346-ae32-4892-9e16-348ed772f9cc")
-		)
-		(instances
-			(project "ulx4m"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-000058d51cad"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 153.67 120.65 0)
 		(unit 1)
@@ -21668,69 +21605,6 @@
 			(project "ulx4m"
 				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-000058d51cad"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 78.74 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a6007fd")
-		(property "Reference" "#PWR046"
-			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 78.74 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01e54b97-4018-4799-95ac-472d59c972fd")
-		)
-		(instances
-			(project "ulx4m"
-				(path "/1df84e4f-233a-4f72-9418-c0020706bb76/00000000-0000-0000-0000-000058d51cad"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -23979,10 +23853,10 @@
 		(lib_id "Device:C")
 		(at 48.26 103.505 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005b5fc348")
 		(property "Reference" "C?"
 			(at 49.53 102.235 90)

@@ -9599,17 +9599,6 @@
 		)
 		(uuid "dbc2ca3a-def5-4227-bf44-b94099e71d34")
 	)
-	(text "WiFi programming pins:\nTXD RXD RTS DTR"
-		(exclude_from_sim no)
-		(at 182.88 80.01 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1812fac-3d3b-4c93-8d78-c63e43b983e3")
-	)
 	(text "D+ 1.5k pullp for \nfull speed device\nmode USB1.1"
 		(exclude_from_sim no)
 		(at 69.85 120.65 0)
@@ -9743,26 +9732,6 @@
 			)
 		)
 	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 266.065 15.24 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "0996c1a6-48e3-4603-8948-85866e9b788b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.065 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RGMII_RXD1"
 		(shape output)
 		(at 219.71 46.99 180)
@@ -9875,26 +9844,6 @@
 		(uuid "1e53e842-a2f2-43f2-816c-f8fe7ac788ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT5"
-		(shape input)
-		(at 137.16 138.43 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "202b045e-fc57-4f29-8c9e-0c9ea6d1fb19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,26 +10112,6 @@
 			)
 		)
 	)
-	(global_label "GPIO15"
-		(shape input)
-		(at 266.065 20.32 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "42439e06-d153-4c79-a5d7-40a34665ef8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.065 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_FPGA_D+"
 		(shape input)
 		(at 69.85 123.19 0)
@@ -10195,46 +10124,6 @@
 		(uuid "45f4b2a6-226f-4776-b1f6-a2dca49d2907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.85 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 266.065 25.4 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "5097c0c8-82d1-4ed0-ba23-70200e8bcece")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.065 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO14"
-		(shape input)
-		(at 266.065 17.78 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "51c072d2-4eca-48e8-af68-3c31d27c3733")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.065 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,26 +10312,6 @@
 			)
 		)
 	)
-	(global_label "SD_DAT4"
-		(shape input)
-		(at 137.16 135.89 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "642b0d9e-e6b1-4808-8d88-b91abbd8fdad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO20"
 		(shape input)
 		(at 246.38 135.89 0)
@@ -10575,26 +10444,6 @@
 		(uuid "7fdb6dc5-21d5-4e31-a4fa-eec4f00ec208")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 266.065 22.86 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "859f2e69-1a4b-41c0-b5f8-405b2947b157")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.065 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,26 +10692,6 @@
 			)
 		)
 	)
-	(global_label "RGMII_REF_CLK"
-		(shape output)
-		(at 186.055 34.925 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b63b8895-8a73-44d7-a163-aeb48fde12cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.055 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO18"
 		(shape input)
 		(at 257.81 57.15 0)
@@ -10915,26 +10744,6 @@
 		(uuid "c78cfb8b-f43d-4e8e-a779-e707e7549d5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.925 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT7"
-		(shape input)
-		(at 137.16 143.51 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "c9603fd0-7fc4-4837-aec9-8629aa402381")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,26 +10904,6 @@
 		(uuid "e65a4da0-abea-47ef-9642-5d8f0743b47a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 236.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT6"
-		(shape input)
-		(at 137.16 140.97 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "e8e87b31-e22d-43a3-82f4-5749a7d821c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
