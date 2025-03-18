@@ -5774,7 +5774,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000058e6bace")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -5881,7 +5881,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000058e6bbe9")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -12311,7 +12311,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000058e6baef")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -25488,7 +25488,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000058e6b981")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -25581,7 +25581,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-00006306aac5")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -25693,7 +25693,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-00006306afde")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -25805,7 +25805,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-00006306c005")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -72377,7 +72377,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-000063079398")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -72492,7 +72492,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-0000630796cf")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -72607,7 +72607,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-000063079865")
 		(sheetname "Root")
-		(sheetfile "ulx4m.kicad_sch")
+		(sheetfile "ulx4m-ld.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
