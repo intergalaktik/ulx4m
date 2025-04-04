@@ -5,12 +5,12 @@
 	(uuid "5fd68f2a-b589-479c-86c7-9ca8692ae8ce")
 	(paper "A4")
 	(title_block
-		(title "ULX4M-LD")
+		(title "${project_name}")
 		(date "2025-03-12")
-		(rev "0.0.3")
-		(company "Intergalaktik d.o.o.")
+		(rev "${project_version}")
+		(company "${project_creator}")
 		(comment 1 "Power")
-		(comment 2 "License: CERN-OHL-S v2")
+		(comment 2 "License: ${project_license}")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"

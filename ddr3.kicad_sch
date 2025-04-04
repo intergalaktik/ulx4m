@@ -5,12 +5,12 @@
 	(uuid "1ad65cf1-734f-44de-986a-ccd7f2875040")
 	(paper "A3")
 	(title_block
-		(title "ULX4M-LD")
+		(title "${project_name}")
 		(date "2025-03-12")
-		(rev "0.0.3")
-		(company "Intergalaktik d.o.o.")
+		(rev "${project_version}")
+		(company "${project_creator}")
 		(comment 1 "Reference - ecp5-dc-scm")
-		(comment 2 "License: CERN-OHL-S v2")
+		(comment 2 "License: ${project_license}")
 	)
 	(lib_symbols
 		(symbol "ecp5-dc-scm:8x51R_0602_array"

@@ -5,12 +5,12 @@
 	(uuid "b290d04a-847b-4a8b-a739-6a36fab3f82a")
 	(paper "A4")
 	(title_block
-		(title "ULX4M-LD")
+		(title "${project_name}")
 		(date "2025-03-12")
-		(rev "0.0.3")
-		(company "Intergalaktik d.o.o.")
+		(rev "${project_version}")
+		(company "${project_creator}")
 		(comment 1 "USB serial and JTAG")
-		(comment 2 "License: CERN-OHL-S v2")
+		(comment 2 "License: ${project_license}")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"

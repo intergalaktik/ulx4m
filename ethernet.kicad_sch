@@ -5,12 +5,12 @@
 	(uuid "31871064-3849-4127-86a9-83b2124de347")
 	(paper "A3")
 	(title_block
-		(title "ULX4M-LD")
+		(title "${project_name}")
 		(date "2025-03-12")
-		(rev "0.0.3")
-		(company "Intergalaktik d.o.o.")
+		(rev "${project_version}")
+		(company "${project_creator}")
 		(comment 1 "Reference - ecp5-dc-scm")
-		(comment 2 "License: CERN-OHL-S v2")
+		(comment 2 "License: ${project_license}")
 	)
 	(lib_symbols
 		(symbol "ecp5-dc-scm:ASEMB-25.000MHZ-LC-T"
@@ -12704,7 +12704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 321.31 148.59 0)
 			(effects
 				(font
@@ -12803,7 +12803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 316.23 148.59 0)
 			(effects
 				(font
@@ -12902,7 +12902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 311.15 148.59 0)
 			(effects
 				(font
@@ -13001,7 +13001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 148.59 0)
 			(effects
 				(font
@@ -13100,7 +13100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 313.69 148.59 0)
 			(effects
 				(font
@@ -13298,7 +13298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 306.07 148.59 0)
 			(effects
 				(font
@@ -13397,7 +13397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 318.77 148.59 0)
 			(effects
 				(font
@@ -13595,7 +13595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 308.61 148.59 0)
 			(effects
 				(font
